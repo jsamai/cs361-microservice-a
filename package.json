@@ -1,0 +1,11 @@
+{
+  "name": "hands_converter",
+  "version": "1.0.0",
+  "description": "Converts horse hands into feet or meters",
+  "main": "app.js",
+  "author": "Joshua Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
