@@ -1,3 +1,5 @@
+// SOURCE: Adapted from https://www.geeksforgeeks.org/javascript-fetch-method/
+
 // Your JSON data
 const jsonData = { breed: "a" };
 
