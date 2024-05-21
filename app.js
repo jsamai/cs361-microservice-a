@@ -50,22 +50,7 @@ app.post('/hands-converter/set-breed', (req, res) => {
 // ===============================
 // SEE CONVERSION HISTORY:
 // ===============================
-app.post('/hands-converter/see-conversions', (req, res) => {
-  // Get breed from http request:
-  const { breed } = req.body;
-  console.log(`Received data: ${breed}`)
-
-  // Create Horse object and perform change breed
-  let horse = new Horse();
-  horse.setBreed(breed);
-
-  let newHands = horse.hands;
-  let newBreed = horse.breed;
-
-  // Send unit and conversion as json response
-  res.json();
-})
-
+// TODO
 
 app.listen(configs.port, () => {
   console.log(`HandsConverter listening on port ${configs.port}`)
