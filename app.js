@@ -42,10 +42,9 @@ app.post('/hands-converter/set-breed', (req, res) => {
   horse.setBreed(breed);
 
   let newHands = horse.hands;
-  let newBreed = horse.breed;
 
   // Send unit and conversion as json response
-  res.json({hands: newHands, breed: newBreed});
+  res.json({hands: newHands});
 })
 
 // ===============================
