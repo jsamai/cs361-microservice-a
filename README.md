@@ -66,7 +66,7 @@ To install and run the microservice self-hosted:
 ---
 
 ### Examples:
-For detailed examples of data being requested and received from the Horse Hands Unit Converter microservice's endpoints, please seae the files in `test_clients` folder.
+For detailed examples of data being requested and received from the Horse Hands Unit Converter microservice's endpoints, please see the files in `test_clients` folder.
 
 ---
 
