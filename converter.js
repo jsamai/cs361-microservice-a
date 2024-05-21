@@ -24,7 +24,6 @@ function checkBreed(inputBreed) {
 
     for (let i = 0; i < breeds.length; i++) {
       if (breeds[i].breed === inputBreed) {
-        console.log(`checkBreed Stored Breed: ${breeds[i].breed}`);
         return breeds[i];
       }
     }
@@ -110,7 +109,6 @@ class Horse {
    */
   setBreed(inputBreed) {
     const storedBreed = checkBreed(inputBreed);
-    // console.log(`STORED BREED: ${JSON.stringify(storedBreed)}`);
 
     if (storedBreed) {
       this.breed = inputBreed;
@@ -118,25 +116,5 @@ class Horse {
     }
   }
 }
-
-// ================================================================
-// | TESTING |
-// ================================================================
-
-let horseHeight = new Horse(4, "Harry")
-console.log(`Convert to meters: ${horseHeight.convert('meters')}`);
-
-horseHeight.hands = 5;
-console.log(`Convert to feet: ${horseHeight.convert('feet')}`);
-
-console.log(`Get conversion: ${JSON.stringify(horseHeight.getConversion())}`)
-
-console.log(`Printing first conversion: ${JSON.stringify(horseHeight.getConversion(0))}`)
-
-horseHeight.setBreed("Clydesdale");
-
-console.log(`FINAL HORSE: ${JSON.stringify(horseHeight)}`);
-
-// ================================================================
 
 module.exports = Horse;
