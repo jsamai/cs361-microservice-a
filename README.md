@@ -17,7 +17,7 @@
 ---
 
 **Option A: HTTP Web Hosted Microservice**
-- The Horse Hands Unit Converter microservice is being hosted on OSU's flip server at &&&
+- The Horse Hands Unit Converter microservice is being hosted on OSU's flip server at http://flip3.engr.oregonstate.edu:50031/hands-converter/
 - If your preference is to avoid self-hosting this microservice, HTTP requests can be made to the microservice being hosted on the server. Instructions on how to do this are described below.
 - The hosted version has the added benefit of eliminating the need to download the microservice locally on your own machine or server, or manually apply patches.
 
