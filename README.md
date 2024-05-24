@@ -58,7 +58,8 @@ To install and run the microservice self-hosted:
 - The data can be received via HTTP response. See below for response details.
 
 **CONVERT UNITS requests:**
-- JSON object response contains: `{toUnit: conversion}`
+- JSON object response contains: `{[toUnit]: conversion}`
+  Note: `toUnit` name will be 'feet' or 'meters'
 
 **SET BREED requests:**
 - JSON object response contains: `{hands: newHands}`
